@@ -1,0 +1,43 @@
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+/*basic*/
+body {
+  margin: 0%;
+  background-color: white;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+}
+.main-title {
+  color: White;
+  font-size: 5em;
+  font-family: "Russo One", sans-serif;
+  padding: 1em;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80em;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/*text*/
+h2 {
+  text-align: left;
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0.8em;
+  background-color: rgba(78, 78, 78, 0.143);
+  border-radius: 20px;
+}
+@media (max-width: 600px) {
+  h2 {
+    text-align: center;
+  }
+}
